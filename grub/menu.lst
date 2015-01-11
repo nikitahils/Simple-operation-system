@@ -1,0 +1,6 @@
+timeout   0
+
+title=hello world os
+root (hd0,0)
+kernel /kernel
+module /module
