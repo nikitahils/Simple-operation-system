@@ -18,7 +18,7 @@ static void* syscalls[] = {
         exit_module,
 };
 
-void initialise_syscalls()
+void initialize_syscalls()
 {
         register_interrupt_handler (0x80, &syscall_handler);
 }

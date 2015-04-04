@@ -17,7 +17,7 @@ void start_kernel(u32int code_base_addr,   u32int code_segment_len,
         init_heap();
         init_screen(black, green);
         init_keyboard();
-        initialise_syscalls();
+        initialize_syscalls();
 
         IRQ_RES;
         start_terminal();
